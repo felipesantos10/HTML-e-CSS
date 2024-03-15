@@ -1,0 +1,21 @@
+div{
+    background:#aaa;
+    width: 150px;
+    height: 80px;
+    padding: 10px;
+    border: 10px solid #000;
+    margin: 30px;
+
+
+}
+
+body {
+    margin: 0px;
+}
+
+h1 {
+    background: #84e;
+    padding: 20px;
+    border: 1px solid #111;
+    margin: 20px;
+}
