@@ -1,0 +1,36 @@
+body{
+    font-family: Arial;
+}
+
+.titulo-principal{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.titulo-secudario{
+    color: #fff
+}
+
+.descricao{
+    color: #b2b2b2
+}
+.produtos{
+    background: #111;
+    padding: 15px;
+    margin: 20px 10px;
+    border-radius: 7px;
+    
+}
+
+.botao{
+    background: #febe01;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    font-weight:600;
+}
+
+span{
+    color: #febe01;
+}
