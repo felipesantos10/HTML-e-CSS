@@ -2,7 +2,9 @@
     display:  flex;
     gap:20px;
     flex-wrap: wrap;
-    justify-content: center;
+    border: 1px solid #21cf0a;
+    
+    
 }
 
 h2{
@@ -10,5 +12,14 @@ h2{
     border: 1px solid #d7d7d7;
     padding: 20px;
     margin: Opx;
+    flex: 1;  /* Atalho para outro 3 elementos. Flex-basic,flex-grow,flex-shrink*/ 
 }
 
+
+.grid {
+    margin-top: 60px;
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(150px,auto));
+    column-gap: 20px;
+    border: 1px solid #c10ce6;
+}
