@@ -1,0 +1,52 @@
+body{
+margin: 0;
+font-family: Arial, Helvetica, sans-serif;
+background: #f7f7f7;
+}
+.grid{
+   display: grid;
+   justify-items: center;
+   gap: 60px;
+}
+
+.logo{
+    margin-top: 40px;
+}
+
+.session{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+
+.session a{
+    text-decoration: none;
+    color: #000000;
+    background: #fff;
+    padding: 15px 30px;
+    border-radius: 5px;
+   
+}
+
+.main{
+    width: 1000px;
+    display: grid;
+    grid-column: auto;   
+}
+
+.preface{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto  auto;
+}
+
+.bike{
+    max-width: 100%;
+    display: block;
+    grid-column: 2;
+    grid-row: 1/-1;
+    
+}
+
+
