@@ -5,7 +5,8 @@ font-family: Arial, Helvetica, sans-serif;
 background: #f7f7f7;
 }
 
-/*Estilos da pagina*/
+
+/*Layout*/
 .grid{
    display: grid;
    justify-items: center;
@@ -39,15 +40,29 @@ background: #f7f7f7;
 }
 
 .preface{
+    background: #fff;
     display: grid;
     grid-template-columns: repeat(2,auto);
     grid-template-rows: repeat(3,auto);
-    text-align: right;
-    place-items: center end;
-    justify-content:end;
-    
+    place-items: center end; 
 }
 
+.preface h1{
+    align-self: end;
+    margin: 0px;
+}
+
+.preface p{
+    text-align: right;
+    margin: 0px;
+    
+}
+.bike{
+    max-width: 100%;
+    display: block;
+    grid-column: 2;
+    grid-row: 1/-1;
+}
 .button{
     text-decoration: none;
     background: red;
@@ -56,11 +71,6 @@ background: #f7f7f7;
     border-radius: 5px;
 }
 
-.bike{
-    max-width: 100%;
-    display: block;
-    grid-column: 2;
-    grid-row: 1/-1;
-}
+
 
 
