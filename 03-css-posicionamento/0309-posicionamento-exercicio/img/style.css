@@ -1,8 +1,11 @@
+/*Estilos Gerais*/
 body{
 margin: 0;
 font-family: Arial, Helvetica, sans-serif;
 background: #f7f7f7;
 }
+
+/*Estilos da pagina*/
 .grid{
    display: grid;
    justify-items: center;
@@ -37,8 +40,20 @@ background: #f7f7f7;
 
 .preface{
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto auto  auto;
+    grid-template-columns: repeat(2,auto);
+    grid-template-rows: repeat(3,auto);
+    text-align: right;
+    place-items: center end;
+    justify-content:end;
+    
+}
+
+.button{
+    text-decoration: none;
+    background: red;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
 }
 
 .bike{
@@ -46,7 +61,6 @@ background: #f7f7f7;
     display: block;
     grid-column: 2;
     grid-row: 1/-1;
-    
 }
 
 
