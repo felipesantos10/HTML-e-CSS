@@ -5,6 +5,10 @@ font-family: Arial, Helvetica, sans-serif;
 background: #f7f7f7;
 }
 
+h1, p {
+    margin:  0px;
+}
+
 
 /*Layout*/
 .grid{
@@ -34,34 +38,35 @@ background: #f7f7f7;
 }
 
 .main{
-    width: 1000px;
+    max-width: 1000px;
     display: grid;
-    grid-column: auto;   
+    grid-column: repeat(2,1fr);   
 }
 
 .preface{
     background: #fff;
     display: grid;
-    grid-template-columns: repeat(2,auto);
-    grid-template-rows: repeat(3,auto);
-    place-items: center end; 
-}
-
-.preface h1{
-    align-self: end;
-    margin: 0px;
-}
-
-.preface p{
+    padding: 40px;
+    gap:20px;   
+    align-items: center;
+    justify-content: end;
     text-align: right;
-    margin: 0px;
-    
+
+  
 }
+
+.preface p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    justify-self: end;
+}
+    
 .bike{
     max-width: 100%;
     display: block;
     grid-column: 2;
     grid-row: 1/-1;
+
 }
 .button{
     text-decoration: none;
@@ -69,8 +74,10 @@ background: #f7f7f7;
     color: white;
     padding: 10px 20px;
     border-radius: 5px;
+    justify-self: end;
 }
 
 
 
 
+ 
