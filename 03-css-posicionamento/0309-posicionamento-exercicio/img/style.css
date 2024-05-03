@@ -40,7 +40,8 @@ p, h1, h2, h3 {
 .main{
     max-width: 1000px;
     display: grid;
-    grid-column: repeat(2,1fr);   
+    grid-column: repeat(2,1fr); 
+     
 }
 
 .preface{
@@ -49,7 +50,6 @@ p, h1, h2, h3 {
     display: grid; 
     align-content: center; /* Alinha o grid */
     justify-items: end; /*Alinha os itens do grid*/
-    text-align: right;
     gap: 20px;
 
   
@@ -83,6 +83,7 @@ p, h1, h2, h3 {
 .vantagens{
     padding: 40px;
     align-self: center;
+    line-height: 1.2;
     font-size: 64px;
     color: rgba(0, 0, 0, 0.2);
     text-align: right;     
@@ -92,10 +93,6 @@ p, h1, h2, h3 {
     background: #fff;
     padding: 40px;
     display: grid;
-    grid-template-columns: repeat(2,auto);
-    align-content: start;
-    justify-items: start;
-    gap : 15px;
     
 }
 
@@ -113,7 +110,13 @@ p, h1, h2, h3 {
     background: #fff;
     padding: 20px;
     text-align: center;
-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.detalhes-descricao {
+    padding: 20px;
+    display: grid;   
+    gap: 10px;    
 }
 
 
