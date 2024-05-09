@@ -1,8 +1,7 @@
 /*Estilos Gerais*/
 body{
-margin: 0;
 font-family: Arial, Helvetica, sans-serif;
-background: #f7f7f7;
+background: #eed8d8;
 }
 
 p, h1, h2, h3 {
@@ -25,6 +24,7 @@ p, h1, h2, h3 {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
+    flex:1;
 
 }
 
