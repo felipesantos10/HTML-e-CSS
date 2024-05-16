@@ -1,21 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pontos de Referencia</title>
-</head>
-<body>
-    <!--Marca o sistema de Navegação-->
-    <nav aria-label="primária"> 
+  </head>
+  <body>
+    <header>
+      <!--Marca o Cabeçalho do Site. Com a imagem principal, uma breve introdução, navegação-->
+      <nav aria-label="primária">
+        <!--Marca o sistema de Navegação-->
         <a href="">SOBRE</a>
         <a href="">PRODUTOS</a>
         <a href="">CONTATO</a>
-    </nav>
-    <!-- Marca o Conteudo Prinpal-->
+      </nav>
+    </header>
+
     <main>
-        <h1>Ninbus Stark</h1>
-        <p>A Nimbus Stark é a melhor marca de  bicicleta equipada com os melhores acessorios</p>
+      <!-- Marca o Conteudo Prinpal-->
+      <h1>Ninbus Stark</h1>
+      <p>
+        A Nimbus Stark é a melhor marca de bicicleta equipada com os melhores
+        acessorios
+      </p>
     </main>
 
     <!--Define um região do site que é autoexplicativa(não precisa do restante do site para fazer sentido)
@@ -23,18 +30,40 @@
     Exemplos: Lista de produtos, receitas, post de redes sociais;
     -->
     <article aria-labelledby="sobrebik">
-        <h1 id="sobrebik">Sobre a Nimbus BikCracf</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita quo tenetur modi atque quas recusandae saepe aspernatur itaque placeat impedit sit alias odio voluptatibus cum, eaque ipsam, ab officiis fugiat.</p>
+      <h1 id="sobrebik">Sobre a Nimbus BikCracf</h1>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita quo
+        tenetur modi atque quas recusandae saepe aspernatur itaque placeat
+        impedit sit alias odio voluptatibus cum, eaque ipsam, ab officiis
+        fugiat.
+      </p>
     </article>
 
-        <!-- Agrupa diferentes regiões do pagina
+    <!-- Agrupa diferentes regiões do pagina
         Geralmente o conteudo necessita de seu contexto para fazer sentido
         -->
     <section aria-labelledby="sobrebik">
-        <h1 id="sobrebik">Sobre a Nimbus BikCracf</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita quo tenetur modi atque quas recusandae saepe aspernatur itaque placeat impedit sit alias odio voluptatibus cum, eaque ipsam, ab officiis fugiat.</p>
+      <h1 id="sobrebik">Sobre a Nimbus BikCracf</h1>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita quo
+        tenetur modi atque quas recusandae saepe aspernatur itaque placeat
+        impedit sit alias odio voluptatibus cum, eaque ipsam, ab officiis
+        fugiat.
+      </p>
     </section>
 
+    <!--Utlizado para marcar conteudo complementar ao principal
+        Exemplo: Lista de post mais procurados.
+        -->
+    <aside>
+      <h3>Post Relacionados</h3>
+      <a href="/">Em quanto tempo devo fazer manutenção da bike</a>
+      <a href="/">Como saber se ja está no tempo de trocar as correias.</a>
+    </aside>
 
-</body>
+    <footer>
+      <!--Rodapé do Site-->
+      <p>Informações secundarias ou Rodapé do Site</p>
+    </footer>
+  </body>
 </html>
