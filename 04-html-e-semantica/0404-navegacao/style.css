@@ -1,0 +1,17 @@
+ul{
+    list-style: none;
+    margin: 0px;
+    display: flex;
+    gap: 20px;
+    margin-top: 40px;
+}
+
+a{
+    display: block;
+    text-decoration: none;
+    padding: 10px 20px;
+    background: rgb(149, 149, 245);
+    color: white;
+    text-transform: uppercase;
+    border-radius: 4px;   
+}
