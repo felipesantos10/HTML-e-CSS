@@ -1,0 +1,22 @@
+a{
+    text-decoration: none;
+    color: white;
+    background: darkblue;
+    display: inline-block;
+
+}
+
+p {
+    background: lightblue;
+}
+
+.px{
+    font-size: 24px;
+    padding: 16px 32px;
+}
+
+/* 1 rem equivale a 16PX na maioria dos browers*/
+.rem{
+font-size: 1.5rem;
+padding: 1rem 2rem ;
+}
