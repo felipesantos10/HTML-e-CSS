@@ -1,0 +1,25 @@
+.bicicleta {
+  height: 600px;
+  background-color: rgb(0, 80, 133);
+  background-image: url(./img/bicicleta.jpg);
+  background-repeat: no-repeat; /*Fazer a imagem não repetir*/
+  background-size: cover;
+  background-position: top;
+  display: flex;
+}
+
+h1 {
+  margin: auto; /* Centraliza no meio*/
+  background: white;
+  padding: 10px 20px;
+}
+
+.linear {
+  height: 50px;
+  background-image: linear-gradient(to right, black, rgb(66, 65, 65));
+}
+
+.radial{
+    height: 50px;
+    background-image: radial-gradient(circle, black, rgb(66,65,65) );
+}
