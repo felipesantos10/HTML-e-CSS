@@ -42,6 +42,7 @@ header{
 .item-menu:hover{
     border: 2px solid rgb(230, 35, 35);
     border-radius: 4px;
+    transition: 0,3s;
 }
 
 .bike{
@@ -49,11 +50,53 @@ header{
     max-width: 100%; 
 }
 
+main{
+    margin-top: 45px ;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items:center ;
+}
 .introducao{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     max-width: 1000px;
 }
+.introducao-produto{
+    background: white;
+    display: grid;
+    gap: 20px;
+    text-align: right;
+    padding: 40px;
+    align-content: center;
+    justify-items: end;
+
+}
+
+.introducao-produto h1{
+    font-size: 2rem;
+}
+.introducao-produto p{
+    font-size: 1.25rem;
+    line-height: 1.3;
+}
+
+.introducao-produto a {
+    background: red;
+    color:white;
+    padding: 12px 20px;
+}
+
+.introducao-produto a:hover{
+    background: rgb(184, 0, 0);
+    transition: 0,3s;
+}
+
+.bike{
+    display:block;
+    max-width: 100%;
+}
+
+
 
 
 
