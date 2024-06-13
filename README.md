@@ -1,2 +1,4 @@
 # HTML e CSS para Iniciantes
-Curso de Html e Css para iniciantes oferecido pela Origamid
+Curso Online de HTML e CSS para Iniciantes, oferecido pela Origamid com as aulas ministradas pelo prof Anfré
+
+

@@ -38,6 +38,7 @@ header{
 
 .menu li{
     padding: 1rem 2rem;
+    border: 2px solid rgb(255, 255, 255);
     
 }
 
@@ -48,6 +49,7 @@ header{
     background: rgb(255, 255, 255);
     border-radius: 4px;
     color: black;
+    
 }
 
 .item-menu:hover{
