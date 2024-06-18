@@ -1,0 +1,28 @@
+img{
+    max-width: 100%;
+    display:block
+}
+
+div{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+
+}
+
+h1{
+    grid-column: 1/-1; 
+}
+
+/*Parte responsiva do site*/
+@media(max-width: 600px) {
+    div{
+        grid-template-columns: 1fr;
+    }
+}
+
+@media(min-width:601px) and (max-width:1000px){
+    div{
+        background-color: aqua;
+    }
+}
