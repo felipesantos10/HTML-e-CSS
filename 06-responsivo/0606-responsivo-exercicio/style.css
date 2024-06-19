@@ -222,7 +222,7 @@ p {
   }
 
   .botao{
-    justify-self: stretch;
+    justify-self: stretch; 
     text-align: center;
 
   }
