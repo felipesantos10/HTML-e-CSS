@@ -154,7 +154,7 @@ p {
   padding: 40px;
   box-sizing: border-box;
 }
-
+/*Responsividade*/
 @media (max-width: 960px) and (min-width:801px) {
 
   body{
